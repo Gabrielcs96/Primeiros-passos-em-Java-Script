@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+   
+   <style>
+        div#area {
+            font: normal 20 pt Arial; 
+            background: red;
+            color: white; 
+            width: 200px;
+            height:200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id= "area" onclick="clicar()" onmouseenter ="entrar()" onmouseout="sair()">
+
+ Interaja!
+    </div>
+    <div>
+        <script>
+            function clicar() {
+                // Quando eu chamar o " clicar ", tudo o que está aqui será disparado 
+                var a = window.document.getElementById('area');
+                a.innerText = 'Clicou ! ';
+                a.style.background = 'green';
+            }
+            function entrar(){
+                var b = window.document.getElementById('area');
+                b.innerText= ' Entrou no quadrado!';
+                b.style.background =   'blue';
+            }
+            function sair() { 
+                var c = window.document.getElementById('area');
+                c.innerText= ' Saiu do quadrado'; 
+                c.style.background= 'black';
+            }
+            /* a.addEventListener('click', clicar) 
+               b.addEventListener('onmousenenter', entrar) 
+               c.addEventListener ('onmouseout', sair) */
+        </script>
+    </div>
+</body>
+</html>

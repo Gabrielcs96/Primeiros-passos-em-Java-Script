@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando estudos com o DOM </title>
+
+<style>
+    body{
+    background: rgb(68,68,12); 
+    color: white; 
+    } 
+
+</style>
+
+</head>
+
+<body>]
+    <h1>Aprendendo o desenvolvimento do <strong> DOM</strong> ! </h1>
+    <h1> Iniciando estudos com o DOM! <br> Hora de estudar </h1>
+<p> Aqui começam os estudos ! </p>
+<p> Clique aqui ! </p>
+
+<script>
+     var p1 = window.document.getElementsByTagName('p')[0]; // Pegando o elemento " p0 "( parágrafo 1 ) e jogando para dentro da variável p1 
+    window.document.write(p1.innerText);
+    // o " intertext" pega o texto sem a formatação
+    // O " inerHtml " pega o texto com a formatação !
+
+    p1.style.color = 'blue';
+    // lembrar de semrpre definir o " style" após a definição da " modificação da variável"
+    // querySelector() é uma maneira mais atual e aparentemente mais simples de fazer 
+
+</script>
+
+</body>
+</html>

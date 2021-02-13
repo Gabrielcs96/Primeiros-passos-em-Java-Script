@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual o seu nome ?');
+        document.write(`<h2> Seu nome tem ${nome.length} letras. <h2>`); // Comando utilizado para saber o " tamanho " da string, como em C# e C++ 
+            document.write(`${nome} `);
+            document.write(`Seu nome em letras maiúsculas é: ${nome.toUpperCase()} <br>`);
+            document.write(`seu nome , em negrito é : <strong>${nome}</strong>`);
+
+
+           
+    var n1 = Number(window.prompt('Coloque um número: '))
+    var n2 = Number(window.prompt('Agora coloque outro: '))
+    var s1 = n1 + n2
+    var s2 = n1 - n2
+    var s3 = n1 * n2
+    var s4 = n1 / n2
+    var s5 = n1 ** n2
+    document.write(`A adição entre ${n1} e ${n2} é de: ${s1}<br>`)
+    document.write(`A subtração entre ${n1} e ${n2} é de: ${s2}<br>`)
+    document.write(`A multiplicação entre ${n1} e ${n2} é de: ${s3}<br>`)
+    document.write(`A divisão entre ${n1} e ${n2} é de: ${s4}<br>`)
+    document.write(`A sua potencialização ${n1} entre ${n2} é de: ${s5}<br>`)
+    document.write('<br>')
+    document.write('Obrigado pela preferência, volte sempre!')
+
+    </script>
+</body>
+</html>

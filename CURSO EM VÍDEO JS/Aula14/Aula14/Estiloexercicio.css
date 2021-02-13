@@ -1,0 +1,32 @@
+body{
+background: green;
+font: normal 15pt Times;
+color: black; 
+text-align: center;
+padding: 8px;
+}
+
+header{
+
+
+}
+
+section{
+background: white;
+border-radius: 10px;
+padding: 10px;
+width: 1000px;
+margin: auto; 
+text-align: center;
+box-shadow: 5px 5px 5px blanchedalmond;
+
+}
+
+footer {
+    color: black
+    font: normal 10pt Times;
+font-style: italic;
+text-align: center;
+
+
+}
