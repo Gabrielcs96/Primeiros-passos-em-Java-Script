@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Click the button to wait 3 seconds, then alert "Hello".</p>
+    <p>After clicking away the alert box, an new alert box will appear in 3 seconds. This goes on forever...</p>
+    <button onclick="myFunction()">Try it</button>
+    <br>
+    <button onclick="newFunction()">Tente</button>
+    
+    <script>
+    function myFunction() {
+      setInterval(function(){ alert("Hello"); }, 3000);
+    }
+    
+    
+    newFunction = () => {
+         setInterval(() => {
+            window.alert("Testando" );
+        }, 5000)
+    }
+    
+    </script>
+
+</body>
+</html>
