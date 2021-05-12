@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Um título </h1>
+    <h2>um título menor </h2>
+    <h3>Um título menor ainda </h3>
+    <h4>Um título ainda menor </h4>
+    <h5>ta da</h5>
+    <span>SPAn </span>
+    <p></p>
+    <input type="text" name="" id="">
+    <p></p>
+    <img src="imagem.png" alt="Texto alternativo ">
+    <p></p>
+    <!--HiperText Markup Language 
+    comentários são legais -->
+    <!-- Atributos booleanos ! -->
+
+    <input type="text" name="" id="" disabled>
+
+    <a href="https://google.com.br" title="isn't"> Google ! </a>
+
+    <!--Atributos globais 
+        Class - Aplicar modificações no CSS e acessar ele com o Javascript 
+        contenditable - Significa que o conteúdo pode ser editado ou não diretamente no navegador
+        data -* 
+        hidden - Esconder uma tag 
+        id - Um único Id por página 
+        style - é usável para aplicar modificações de CSS numa Tag 
+        tabindex -  Seguir conforme o que o tab  está mandando , ou seja, encadear/organizar o tab 
+        title - Definir um título, não muda nem emtermos de visualização
+
+    -->
+
+    <!--ANINHAMENTO DE TAGS 
+    
+    - fluxo 
+    hirarquia 
+    Posicionamento dos elementos -->
+    <p>Vou <em>Escrever (ÊNFASE É DADO USANDO ESSE EM)
+        </em> aqui </p>
+
+
+    <!--
+        Semântica é legal a gente deixar tudo estruturado e organizado ! 
+    -->
+
+    <!--
+        Cabeçalho e parágrafos ! 
+        
+    -->
+
+    <h1>Título principal !</h1>
+    <h2>Subtítulo ou título de segunda relevância </h2>
+    <h3> Terceiro na ordem de importância visual </h3>
+
+    <!-- 
+        Listas 
+        ordenadas 
+            não ordenadas 
+    -->
+
+    <h1>Suco Detox</h1>
+    <h2>Ingredientes </h2>
+
+    <ol>
+        <!-- Neste caso, são listas ordenadas , para as não ordenadas usamos o ul-->
+        <li>3 Folhas de maracujá </li>
+        <li>Uma laranja </li>
+        <li>meio limão</li>
+        <li>Água gaseificada</li>
+        <li>Suco de maracujá </li>
+
+    </ol>
+
+    <!-- Citações 
+    <blockqote>
+        <cite>
+            <q> 
+                
+            -->
+
+    <blockquote cite="https://developer.mozilla.org">
+        Indicando que um <strong>Texto externo </strong> foi citado !
+
+    </blockquote>
+
+    <p> De acordo com <a href="https://developer.mozilla.org "> <cite>MDN q Page</cite></a>
+    </p>
+
+    <q></q>
+
+    <!-- Abreviações ! 
+            <abbr>
+                -->
+
+    <p>Usando o <abbr title="Hipertext Markup Language ">HTML</abbr> para testar essa situation</p>
+
+    <!--
+                    Detalhes de contato : 
+                    <address>
+                -->
+    <address>
+        <p>Gabriel</p>
+        <strong>São Paulo, São Paulo</strong>
+    </address>
+
+    <!--
+                            Listas de descrição 
+
+                            <dl>
+                            <dt></dt>
+                            <dd></dd>
+                            </dl>
+                        -->
+
+    <h2>Glossário </h2>
+    <dl>
+        <dt>HyperText </dt>
+        <dd>Hiper Texto com possibilidades incríveis</dd>
+
+        <dt>Markup</dt>
+        <dd>Marcação do texto</dd>
+
+        <dt>Language</dt>
+        <dd>Linguagem </dd>
+    </dl>
+
+
+    <!--
+                            Representação de códigos de computador 
+
+                    <code>
+                        serve para partes genéricas do código ! 
+
+                        <pre>
+                            serve para blocos de cóigo, pois essa tag mantém
+                            os espaços em branco e recuos que você colocar no seu código 
+                            de modo a "copiar" toda a estrutura 
+                        -->
+
+
+    <pre>
+                            <code>
+                                document.querySelector("body")
+                                window.
+                                    document.
+                                        getElementById("criar")
+                            </code>
+                        </pre>
+
+
+    <!--
+    Elementos genéricos 
+    <div> - CRIAÇÃO DE BLOCO 
+        <span> -- Criação de uma estrutura genérica  só que, em linha 
+
+-->
+
+
+    <!--
+HyperLinks
+Atributos globais ( title, id, class,)
+href - pra onde será apontado quando clicar no link 
+- download 
+
+
+-target ------------------
+-_self(padrão) 
+-_blank (abrir uma nova tab ) 
+-->
+
+    <p>Saiba mais ! </p>
+    <ul>
+        <li><a href="#about"> Sobre mim</a></li>
+        <li><a href="#history"> história</a></li>
+        <li><a href="#works"> trabalhos</a></li>
+
+    </ul>
+
+    <h1 id="about">Sobre mim</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore hic voluptas nihil beatae maiores accusamus
+        repellat corporis commodi modi necessitatibus magni eos, suscipit, ullam in adipisci omnis culpa! Enim, aliquam?
+    </p>
+
+    <h1 id="history">História</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio quibusdam perspiciatis iure quam, atque est
+        mollitia. A quo, beatae impedit recusandae temporibus corporis, eos eum necessitatibus cumque nostrum dolorum.
+    </p>
+
+    <h1 id="works"> Trabalhos</h1>
+
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur consectetur est dolores. Velit, ullam? Earum
+    quisquam, unde iure distinctio laboriosam eligendi ex ducimus, labore sequi similique quibusdam minus, aperiam quae.
+
+
+
+    <!--O Conteúdo que podemos deixar no hyperlink é QUALQUER CONTEÚDO ! -->
+
+    <!--
+     Url  e caminho dos arquivos 
+     - Uniform resource locator 
+     - www.google.com - Sequência de texto que define algo localizado na Web
+     - Url usam caminhos para encontrar aqruivos 
+
+
+     - Caminhos de arquivos 
+     0 Onde, no explorador de arquivos, um dado recurso está localizado 
+     
+ -->
+
+    <a href="./index.html" target="_blank">Abrir Hyperlinks,por exemplo: </a>
+
+    <!--
+     Como navegar pelos caminhos ? 
+     - mesmo diretório 
+     - entradndo em diretórios 
+     -saindo de diretórios 
+     diretório raiz ou pai ou root 
+
+    
+ -->
+
+    <a href="h+++++"></a>
+
+
+
+    <!--Tabelas são  muito importantes. Porém, não devem ser utilizadas como 
+    
+    thead é o cabeçalho da tabela 
+    tbody é o corpo
+    tfoot é o rodapé 
+    tr é a linha 
+    th é o nome dado no cabeçalho 
+    td é o preenchimento da coluna 
+    -->
+    <table>
+
+        <caption>Pessoas por idade </caption>
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    idade
+                </th>
+
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>Fulano</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Beltrano</td>
+                <td>20</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <td>
+                Total:
+            </td>
+            <td>2 pessoas </td>
+        </tfoot>
+
+
+    </table>
+
+    <!-- Tabela complexa
+    -->
+
+    <br><br><br><br><br><br>
+    <table>
+        <caption>Produtos Produzidos x vendidos por loja </caption>
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;">
+            <col span="2" style="background-color: blue;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup"> Loja 1 </th>
+                <th colspan="2" scope="colgroup">Loja 2 </th>
+
+            </tr>
+
+            <th scope="col">Produzidos</th>
+            <th scope="col" >Vendidos</th>
+            <th scope="col" >Produzidos</th>
+            <th scope="col" >Vendidos</th>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Vassoura </th>
+                <td>50</td>
+                <td>30</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <th scope="row" >
+                    Baldes
+                </th>
+
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<!--
+    <Head>
+        <meta> 
+        charset = codificação de caracteres especiais
+        name = viewport content = "width= device-width, initial-scale = 1.0"
+        - Dispositivos móveis e tal 
+  
+        favicon 
+        fav icon 
+        favorite icon 
+        favicon básico 
+        Alguns frameworks fazem a seleção " automática do icone"
+        ex: <link rel "icon" href="Digiteaqui o seu link do icone"
+
+        Alguns metas são relevantes para o SEO 
+        ex: name-"author" - autoração
+        description = descrição 
+        robots - o que ele quer que o robô do google faça  
+
+        meta redes sociais
+
+        exemplo: meta propety - Open Graph
+        
+-->
+
+
+
+
+
+
+
+</body>
+
+</html>

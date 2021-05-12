@@ -1,0 +1,62 @@
+/*  Fechar comentários abertos 
+pode ser tilizado para desabilitar código 
+dá para ver bem o que é 
+deixa dicas 
+ajuda você e aos outros a entenderem o que você escreveu 
+Propriedade 
+chave - valor ! 
+
+selector 
+declaration 
+properties 
+property value
+
+Os selectors ou seletores conectam o elemento HTML com o CSS 
+
+*Global Selector '*'
+* element/type Selector ' h1,h2,p, div'
+* Id Selector ' #box, #container' 
+* class selector '.red .m-4 ' 
+*Attribute selector , pseudo-class , pseudo-element e outros ! 
+
+
+
+Adicionado o CSS 
+
+##inline 
+*aributo style
+
+O estilo é sempre lido de cima para baixo, logo, é o que o próprio código " levará em conta ", durante a hora da aplicação do seu CSS 
+
+Origem 
+Especificadade
+importância 
+
+
+* {} - Seletor de valor zero ! 
+seletor de classe - Força de 10 ! 
+ID - seletor de força 100
+Inline Selector - Seletor de força 1000 
+
+Regra !important = É o mais forte de todos  
+
+@import - serve para incluir CSS externo 
+@media é para regras condicionais para dispositivos 
+@fonte-face - Fontex externas 
+@Keyframes Animações ! 
+
+shorthand - Colocar tudo numa linha só  para uma dado " parágrafo " ! 
+
+Funções do CSS são o conjunto de " chave-valor, onde o próprio CSS vai transformar argumentos em algo queela mesma entenda" ! 
+
+
+
+*/
+
+
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    background: gray;
+}
