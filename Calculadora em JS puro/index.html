@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em JS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="externo">
+        <div class="calculator">
+            <h1> Calculadora </h1>
+           <div class="display"> <p id="resultado">RESULTADO </p> </div> 
+            <table>
+                <tr>
+                    <th> <button class="operation" onclick="reset()" > AC </button> </th> <!-- Não tá funcionando bem, eu não sei o pq -->
+                    <th> <button onclick="erase()" class="operation"> &#9003; </button> </th>
+                    <th> <button class="operation" onclick="addOperation('%')"> % </button> </th>
+                    <th> <button onclick="addOperation('/')" class="operation"> ÷ </button></th>
+
+
+
+                </tr>
+                <tr>
+                    <th> <button class="number" onclick="addNumber('7')"> 7 </button> </th>
+                    <th> <button class="number" onclick="addNumber('8')"> 8 </button> </th>
+                    <th> <button class="number" onclick="addNumber('9')"> 9 </button> </th>
+                    <th> <button class="operation" onclick="addOperation('+')"> + </button> </th>
+                </tr>
+                <tr>
+                    <th> <button class="number" onclick="addNumber('4')"> 4 </button> </th>
+                    <th> <button class="number" onclick="addNumber('5')"> 5 </buttonN> </th>
+                    <th> <button class="number" onclick="addNumber('6')"> 6 </buttoN> </th>
+                    <th> <buttoN class="operation" onclick="addOperation('*')"> * </button> </th>
+                </tr>
+                <tr>
+                    <th> <button class="number" onclick="addNumber('1')"> 1 </button> </th>
+                    <th> <button class="number" onclick="addNumber('2')"> 2 </button> </th>
+                    <th> <button class="number" onclick="addNumber('3')"> 3 </button> </th>
+                    <th> <button class="operation" onclick="addOperation('-')"> - </button> </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> <button id="number0" onclick="addNumber('0')"> 0 </button> </th>
+                    <th colspan="2"> <button id="equals" onclick="equals()"> = </button> </th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
